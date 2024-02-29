@@ -5,61 +5,160 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Instituto Tecnológico de Mexicali</title>
-  <link rel="stylesheet" type="text/css" href="custom.css">
+  <!--<link rel="stylesheet" type="text/css" href="custom.css">-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
 
 <body>
-  
-  <div class="mt-0 p-2 text-white" id="banner">
-    <h1>Instituto Tecnológico de Mexicali</h1>
+  <div>
+    <nav class="navbar">
+      <a class="navbar-brand" href="#">TecNM</a>
+      <a class="navbar-brand" href="#">Gobierno</a>
+      <a class="navbar-brand" href="#">Participa</a>
+      <a class="navbar-brand" href="#">Datos</a>
+    </nav>
   </div>
-
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Menú</a>
-
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-          aria-expanded="false">
-          Campus Mexicali
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="#">Bienvenida</a></li>
-          <li><a class="dropdown-item" href="#">Calendario 2024-1</a></li>
-          <li><a class="dropdown-item" href="#">Directorio</a></li>
-          <li class="dropdown-item">Licitaciones</li>
-          <li class="dropdown-item">Monitoreo ambiental</li>
-          <li class="dropdown-item">SISAD</li>
-          <li class="dropdown-item">SIAPOA</li>
-          <li class="dropdown-item">Sistema Integrado de Gestión </li>
-        </ul>
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
+        aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-auto-close="outside" href="#" id="navbarDarkDropdownMenuLink"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Campus mexicali
+            </a>
 
 
-      </li>
+            <ul class="dropdown-menu ">
+              <li><a href="#" class="dropdown-item">Posgrado</a></li>
+              <li><a href="#" class="dropdown-item">Bienvenida</a></li>
+              <li><a href="#" class="dropdown-item">Calendario 2024-1</a></li>
+              <li><a href="#" class="dropdown-item">Directorio</a></li>
+              <li><a href="#" class="dropdown-item">Licitaciones</a></li>
+              <li><a href="#" class="dropdown-item">Monitoreo ambiental</a></li>
+              <li><a href="#" class="dropdown-item">SISAD</a></li>
+              <li><a href="#" class="dropdown-item">SIAPOA</a></li>
+              <li><a href="#" class="dropdown-item">Sistema Integrado de Gestión</a></li>
 
 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-          aria-expanded="false">
-          Oferta educativa
-        </a>
-
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" href="#">
-          <li><a class="dropdown-item" href="#">Posgrado</a></li>
-          <li class="nav-item dro"></li>
-        </ul>
-
-      </li>
+            </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-auto-close="outside" href="#" id="navbarDarkDropdownMenuLink"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Oferta educativa
+            </a>
 
 
-      </ul>
+            <ul class="dropdown-menu ">
+              <li><a href="#" class="dropdown-item">Posgrado</a></li>
+              <li class="dropend"><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                  href="#">Licenciaturas</a>
+                <ul class="dropdown-menu ">
+                  <li><a href="#" class="dropdown-item">Ingenieria Sistemas</a></li>
+                  <li><a href="#" class="dropdown-item">Ingenieria Electrica</a></li>
+                  <li><a href="#" class="dropdown-item">Ingenieria Electronica</a></li>
+                  <li><a href="#" class="dropdown-item">Ingenieria Energias Renovables</a></li>
+                  <li><a href="#" class="dropdown-item">Ingenieria Gestion empresarial</a></li>
+                  <li><a href="#" class="dropdown-item">Ingenieria Industrial</a></li>
+                  <li><a href="#" class="dropdown-item">Ingenieria Logistica</a></li>
+                  <li><a href="#" class="dropdown-item">Ingenieria Materiales</a></li>
+                  <li><a href="#" class="dropdown-item">Ingenieria Mecatronica</a></li>
+                  <li><a href="#" class="dropdown-item">Ingenieria Mecanica</a></li>
+                  <li><a href="#" class="dropdown-item">Ingenieria Quimica</a></li>
 
-    </div>
+                </ul>
+              </li>
+
+            </ul>
+
+
+          </li><!--cierra oferta educativa-->
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-auto-close="outside" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Estudiantes
+            </a>
+
+
+            <ul class="dropdown-menu ">
+              <li class="dropend"><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                  href="#">Asesorias</a>
+                <ul class="dropdown-menu ">
+                  <li><a href="#" class="dropdown-item">Academicas</a></li>
+                  <li><a href="#" class="dropdown-item">Pedagogicas</a></li>
+                </ul><!--Cierra submenu asesoria-->
+              </li> <!--Cierra asesorias-->
+
+              <li><a href="#" class="dropdown-item">Servicio social</a></li>
+              <li><a href="#" class="dropdown-item">Practicas profesionales</a></li>
+              <li><a href="#" class="dropdown-item">Residencia profesional</a></li>
+              <li><a href="#" class="dropdown-item">Nuevo reglamento del estudiante</a></li>
+              <li><a href="#" class="dropdown-item">Solicitudes al comite academico</a></li>
+              <li><a href="#" class="dropdown-item">Actividades extra escolares</a></li>
+              <li><a href="#" class="dropdown-item">Creditos complementarios</a></li>
+
+
+
+          </li><!--Cierra estudiantes-->
+
+        </ul><!--Cierra estudiantes-->
+
+
+        <li class="nav-item dropdown"><!--Abre accesos-->
+
+          <a class="nav-link dropdown-toggle" data-bs-auto-close="outside" href="#" id="navbarDarkDropdownMenuLink"
+            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Accesos
+          </a>
+
+          <ul class="dropdown-menu ">
+            <li><a href="#" class="dropdown-item">Mindbox</a></li>
+            <li><a href="#" class="dropdown-item">Moodle</a></li>
+            <li><a href="#" class="dropdown-item">Correo Institucional</a></li>
+          </ul><!--Cierra accesos-->
+        </li><!--Cierra accesos-->
+
+
+        <li class="nav-item dropdown"><!--Abre Servicios escolares-->
+
+          <a class="nav-link dropdown-toggle" data-bs-auto-close="outside" href="#" id="navbarDarkDropdownMenuLink"
+            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Servicios escolares
+          </a>
+
+          <ul class="dropdown-menu ">
+
+            <li><a href="#" class="dropdown-item">Constancias Fisicas</a></li>
+            
+            <li class="nav-item dropdown"><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+              href="#">Especialidad</a><!--inicia especialidad-->
+
+
+
+
+            </li><!--Cierra especialidad-->
+
+           
+
+
+          </ul>
+        </li><!--Cierra accesos-->
+
+
+
+      </div>
     </div>
   </nav>
 </body>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
